@@ -1,0 +1,14 @@
+{
+    "colorSquare": {
+        "square1": "red",
+        "square2": "green"
+    },
+    "sizeSquare": 10,
+    "buttonsTitle": {
+        "play": "Play",
+        "close": "Close",
+        "reload": "Resume",
+        "start": "Start anim",
+        "stop": "Stop anim"
+    }
+}

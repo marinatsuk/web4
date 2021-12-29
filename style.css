@@ -1,0 +1,131 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 20px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, footer {
+	height: auto;
+	width: 100%;
+	background-color: rgb(176, 248, 248);
+	float: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#block1 {
+	margin-left: 50px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	min-width: 10%;
+	max-width: 30%;
+	min-height: 30%;
+	text-align: left;
+	width: 50%;
+	font-size: 20px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#blockX {
+	margin-right: 50px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+	text-align: center;
+	background-color: white;
+	min-width: 10%;
+	max-width: 30%;
+	min-height: 30%;
+	float: right;
+}
+
+
+h3 {
+	margin: 3%;
+}
+
+#blockY {
+	margin-top: 2%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	width: 20%;
+	min-height: 33%;
+	float: right;
+	background-color: white;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#block7 {
+	padding: 2%;
+	width: 60%;
+	float: left;
+	text-align: left;
+}
+
+
+.content {
+	float: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.content > div {
+	width: 33.33%;
+}
+
+
+#block2 {
+	background-color: rgb(170, 243, 192);
+	padding: 10px;
+	text-align: center;
+}
+#block3 {
+	text-align: center;
+	min-height: 300px;
+}
+
+#block4 {
+	background-color: rgb(243, 170, 174);
+	padding: 10px;
+	text-align: center;
+}
+
+#block5 {
+	background-color: rgb(243, 170, 174);
+	padding: 10px;
+	text-align: center;
+}
+
+#block6 {
+	background-color: rgb(170, 243, 192);
+	padding: 10px;
+	text-align: center;
+}
+
+.iterator{
+	display: none;
+}
+
+.animation-block {
+	display: inline-block;
+	width: calc(100% - 10px);
+	height: calc(100% - 50px);
+	border: solid 5px yellow;
+	background: url(square.png);
+}
+
+#square1 {
+	position: absolute;
+    display: block;
+}
+
+#square2 {
+	position: absolute;
+    display: block;
+}
