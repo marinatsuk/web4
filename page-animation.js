@@ -37,9 +37,7 @@ $(function() {
 
 	const animationBlock = document.getElementById("animation");
 	let blockWidth = 0;
-	let blockHeight = 0;
-	
-	//blockContent_3
+	let blockHeight = 0;	
 
 	function getProperties() {
 		$.ajax({
@@ -222,7 +220,7 @@ $(function() {
 			if (!stopPressed) {
 				move();
 			}
-		}, 25)
+		}, 55)
 	}
 
 	function initActions() {

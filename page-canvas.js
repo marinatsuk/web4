@@ -130,7 +130,7 @@ $(function() {
 				const dx = this.x - squares[j].x;
 				const dy = this.y - squares[j].y;
 				const distance = Math.sqrt(dx * dx + dy * dy);
-				if (distance <= this.size + squares[j].size) {
+				if (distance <= this.width) {
 					log("Collision");
 					stop();					
 				}
@@ -228,8 +228,9 @@ $(function() {
 
 		log("Animation resumed");	
 		
-		initialSquare('square1', 'red');
-		initialSquare('square2', 'green');		
+		for (let i = 0; i < squares.length; i++) {
+			setRandomPlace(squares[i]);
+		}		
 	}	
 
 	$('input[name="play"]').click(function(){
